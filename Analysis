@@ -1,0 +1,13 @@
+def prime_num(n):
+    for x in range(0,n): O[n]
+        p=1   [c1]
+        for y in range(2,x): O[n]
+            i=x%y [c2]
+            if i==0:
+                p=0
+                break
+        if p==1:
+            print(x)
+            
+c1 + c2 + (n)^2
+Big O(n)^2
