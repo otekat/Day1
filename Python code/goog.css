@@ -1,0 +1,123 @@
+body{
+
+	margin: 0;
+}
+
+#main {
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+}
+
+#nav-top {
+
+	position:absolute;
+	top:0;
+	width:500px;
+	height: 50px;
+	background-color: yellow;
+	right:0;
+
+}
+
+#gmail:link {
+	color: black;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 14px;
+	display: inline;
+	margin-left: 15px;
+	position: relative;
+	top: 20px;
+
+}
+
+#gmail:visited{
+	color:black;
+	text-decoration: none;
+
+}
+
+#gmail:hover{
+	text-decoration: underline;
+}
+
+#center-div{
+	position: absolute;
+	width: 700px;
+	height: 350px;
+	top:50%;
+	margin-top: -175px;
+	left: 50%;
+	margin-left: -350px;
+
+
+}
+#logo{
+	position: absolute;
+	height: 92px;
+	width: 272px;
+	left: 50%;
+	top:50px;
+	margin-left: -136px;
+}
+
+#search{
+
+	position: absolute;
+	width: 700px;
+	height: 40px;
+	top:170px;
+	color: black;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.buttons {
+
+	position: absolute;
+	width: 140px;
+	height: 40px;
+	background-color: #f2f2f2;
+	top: 250px;
+	text-align: center;
+
+}
+.buttons p{
+
+	font-family: sans-serif;
+	font-weight: bold;
+	color: gray;
+	margin-top: 13px;
+	font-size: 14px;
+}
+
+#nav-bottom{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	bottom: 0;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4
+
+}
+
+#nav-bottom-left{
+	position: absolute;
+	width: 250px;
+	height: 20px;
+	left:0;
+	top: 50%;
+	margin-top: -10px;
+
+}
+
+.nav-bottom-a:link{
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #777;
+	font-size: 14px;
+}
